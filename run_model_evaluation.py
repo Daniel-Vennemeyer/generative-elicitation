@@ -7,7 +7,7 @@ from tap import Tap
 from generative_questions_agent import GenerativeQuestionsAgent
 from generative_edge_cases_agent import GenerativeEdgeCasesAgent
 from from_saved_file_agent import FromSavedFileAgent
-from pool_based_agent import PoolBasedAgent
+# from pool_based_agent import PoolBasedAgent
 import os
 import json
 from tqdm import tqdm
@@ -19,7 +19,7 @@ AGENT_NAME_TO_CLASS = {
     "questions": GenerativeQuestionsAgent,
     "edge": GenerativeEdgeCasesAgent,
     "saved": FromSavedFileAgent,
-    "pool": PoolBasedAgent,
+    # "pool": PoolBasedAgent,
     "noninteractive": None,
 }
 AGENT_CLASS_TO_NAME = {v: k for k, v in AGENT_NAME_TO_CLASS.items()}
@@ -55,7 +55,7 @@ def run_problem_instance(
     '''
 
     generative_al_agent = agent_class(
-        problem_instance_filename, engine, openai_cache_file=openai_cache_file,
+        problem_instance_filename, engine,
         question_type=question_type, saved_interactions_file=saved_interactions_file,
         eval_condition=eval_condition, pool_al_sampling_type=sampling_type,
         pool_diversity_num_clusters=pool_diversity_num_clusters,
@@ -140,7 +140,10 @@ def main(args):
                 question_type = "_".join(question_mode.split("_")[1:])
 
             os.makedirs(f"model_model_results/{args.task}", exist_ok=True)
-            outputs_save_file = open(f"model_model_results/{args.task}/{args.engine}_{args.eval_condition}_{args.seed}_{question_mode}.txt", "w")
+            outputs_save_file = open(
+                f"model_model_results/{args.task}/{args.engine}_{args.eval_condition}_{args.seed}_{question_mode}.txt",
+                "a"
+            )
 
             test_xs, test_scores = run_problem_instance(
                 problem_instance_filename=problem_instance_filename, 

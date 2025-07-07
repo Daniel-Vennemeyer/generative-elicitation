@@ -1,7 +1,7 @@
 import textwrap
 
 from base_active_learning_agent import BaseActiveLearningAgent
-from utils import query_api, load_openai_cache, async_query_api
+from utils import query_api
 import numpy as np
 import random
 from tqdm import tqdm
@@ -16,8 +16,8 @@ IMPLEMENTATION = "system"  #["Python regex", "system"]
 
 class PoolBasedAgent(BaseActiveLearningAgent):
     """Active learning agent that generates edge cases to identify the target regex."""
-    def __init__(self, target_specification_file, engine, openai_cache_file=None, pool_data_path=None, pool_al_sampling_type=None, pool_diversity_num_clusters=None, **kwargs):
-        super().__init__(target_specification_file, engine, openai_cache_file, **kwargs)
+    def __init__(self, target_specification_file, engine, pool_data_path=None, pool_al_sampling_type=None, pool_diversity_num_clusters=None, **kwargs):
+        super().__init__(target_specification_file, engine, **kwargs)
         # either specified in `target_specification_file` or in args
         if pool_data_path is not None:
             self.pool_data_path = pool_data_path
@@ -48,10 +48,6 @@ class PoolBasedAgent(BaseActiveLearningAgent):
             all_samples = []
             for sample in self.all_samples: all_samples.extend(sample)
             assert set(all_samples) == set(self.pool_al_examples)
-        if self.pool_al_sampling_type == "uncertainty_logits":
-            self.engine_selection = "text-davinci-003"
-            self.openai_cache_selection_file = f"{self.engine_selection}-cache.jsonl"
-            self.openai_cache_selection = load_openai_cache(self.openai_cache_selection_file)
 
     
     def load_pool_examples(self, pool_fp):

@@ -10,8 +10,8 @@ IMPLEMENTATION = "Python regex"  #["Python regex", "system"]
 class GenerativeQuestionsAgent(BaseActiveLearningAgent):
     """Active learning agent that generates questions to identify the target regex."""
 
-    def __init__(self, target_specification_file, engine, openai_cache_file=None, question_type="open", **kwargs):
-        super().__init__(target_specification_file, engine, openai_cache_file, **kwargs)
+    def __init__(self, target_specification_file, engine, question_type="open", **kwargs):
+        super().__init__(target_specification_file, engine, **kwargs)
         self.question_type = question_type
         assert self.question_type in QUESTION_TYPES, f"Invalid question type: {self.question_type}. Must be one of {QUESTION_TYPES}."
 
@@ -68,7 +68,7 @@ class GenerativeQuestionsAgent(BaseActiveLearningAgent):
     def generate_active_query(self):
         '''Generates a question for the oracle.'''
         question_prompt = self.get_question_prompt(self.task_description, self.question_type, self.implementation, self.interaction_history)
-        question, _ = query_api(question_prompt, self.engine, self.openai_cache, self.openai_cache_file, temperature=self.temperature)
+        question, _ = query_api(question_prompt, self.engine, temperature=self.temperature)
         return question
        
     def generate_oracle_response(self, question):

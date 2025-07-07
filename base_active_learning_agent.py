@@ -2,18 +2,16 @@ import json
 import re
 from abc import ABC, abstractmethod
 
-from utils import query_api, load_openai_cache
+from utils import query_api
 import textwrap
 from sklearn.metrics import roc_auc_score
 
 
 class BaseActiveLearningAgent(ABC):
     
-    def __init__(self, target_specification_file, engine, openai_cache_file=None, **kwargs):
+    def __init__(self, target_specification_file, engine, **kwargs):
         self.get_gold_domain_info(target_specification_file)
         self.engine = engine
-        self.openai_cache_file = openai_cache_file
-        self.openai_cache = load_openai_cache(openai_cache_file)
         self.temperature = kwargs.get("temperature", 0.0)
 
         self.interaction_history = []
@@ -66,7 +64,7 @@ class BaseActiveLearningAgent(ABC):
     
     def generate_test_case_answer(self, test_case):
         test_case_messages = self.get_test_case_prompt(self.interaction_history, test_case)
-        test_case_answer, _ = query_api(test_case_messages, self.engine, self.openai_cache, self.openai_cache_file)
+        test_case_answer, _ = query_api(test_case_messages, self.engine, temperature=self.temperature)
         test_case_answer = test_case_answer.strip().lower()
         
         return test_case_answer
@@ -91,7 +89,7 @@ class BaseActiveLearningAgent(ABC):
             # test_case: tuple of (query, answer)
             test_case_messages = self.get_test_case_prompt(self.interaction_history, test_case[0])
             all_test_case_messages.append(test_case_messages)
-            answer, _ = query_api(test_case_messages, self.engine, self.openai_cache, self.openai_cache_file)
+            answer, _ = query_api(test_case_messages, self.engine, temperature=self.temperature)
             test_case_to_answer[json.dumps(test_case_messages)] = answer.strip().lower()
 
         # Compute Accuracy and AUCROC and correct_prob
@@ -106,7 +104,7 @@ class BaseActiveLearningAgent(ABC):
                     break
                 except:
                     test_case_message.append({'role': 'user', 'content': 'Please make your best guess as to a probability. Output the probability and nothing else.'})
-                    pred_prob, _ = query_api(test_case_message, self.engine, self.openai_cache, self.openai_cache_file)
+                    pred_prob, _ = query_api(test_case_message, self.engine, temperature=self.temperature)
                     test_case_to_answer[json.dumps(test_case_message)] = pred_prob
             pred_probs.append(pred_prob)
             pred_answer = 1 if pred_prob > 0.5 else 0
@@ -175,7 +173,7 @@ class BaseActiveLearningAgent(ABC):
         # Loop until we get a regex that compiles.
         while True:
             hypothesis_messages = self.get_hypothesis_prompt(self.task_description, self.interaction_history, broken_regexes)
-            hypothesis_regex_text, _ = query_api(hypothesis_messages, self.engine, self.openai_cache, self.openai_cache_file)
+            hypothesis_regex_text, _ = query_api(hypothesis_messages, self.engine, temperature=self.temperature)
             hypothesis_regex_text = self.strip_hypothesis_regex(hypothesis_regex_text)
             print('Hypothesis regex (post-strip):', hypothesis_regex_text)
             try:
@@ -251,7 +249,7 @@ class BaseActiveLearningAgent(ABC):
 
     def query_oracle_api(self, question, question_type):
         oracle_prompt = self.get_oracle_prompt(question, question_type)
-        answer, _ = query_api([{"role": "user", "content": oracle_prompt}], self.engine, self.openai_cache, self.openai_cache_file, temperature=self.temperature)
+        answer, _ = query_api([{"role": "user", "content": oracle_prompt}], self.engine, temperature=self.temperature)
         return answer
 
     def evaluate_condition(self, **kwargs):
