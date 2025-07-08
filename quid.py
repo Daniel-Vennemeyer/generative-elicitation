@@ -105,24 +105,24 @@ test_samples =[
         "Why We Look for Happiness in the Wrong Places"
     ],
 
-test_samples =[
-        "New York Times",
-        "TIME Magazine",
-        "The Atlantic",
-        "Bon Appetit",
-        "National Geographic",
-        "Travel and Leisure",
-        "Popular Science",
-        "Rolling Stone",
-        "Sports Illustrated",
-        "Architectural Digest",
-        "Esquire",
-        "Sunset Magazine",
-        "Vogue",
-        "Runner's World",
-        "Forbes",
-        "Tricycle: The Buddhist Review"
-    ],
+# test_samples =[
+#         "New York Times",
+#         "TIME Magazine",
+#         "The Atlantic",
+#         "Bon Appetit",
+#         "National Geographic",
+#         "Travel and Leisure",
+#         "Popular Science",
+#         "Rolling Stone",
+#         "Sports Illustrated",
+#         "Architectural Digest",
+#         "Esquire",
+#         "Sunset Magazine",
+#         "Vogue",
+#         "Runner's World",
+#         "Forbes",
+#         "Tricycle: The Buddhist Review"
+#     ],
 
 class ObjectEIGCalculator:
     """
@@ -550,4 +550,4 @@ def main(input_txt, output_txt, model_name, device=None, style='numbered', start
 logger.info('============= Open Results (Llama-3-70B) =================')
 file = 'model_model_results/website_preferences/meta-llama/Llama-3.3-70B-Instruct_per_turn_0_questions_open.txt'
 model = 'meta-llama/Llama-3.3-70B-Instruct'
-main(file, 'Open_GATE_quid_llama3-70b_numbered_shorter_venue', model, style='numbered')
+main(file, 'Open_GATE_quid_llama3-70b_numbered_shorter_title', model, style='numbered')
