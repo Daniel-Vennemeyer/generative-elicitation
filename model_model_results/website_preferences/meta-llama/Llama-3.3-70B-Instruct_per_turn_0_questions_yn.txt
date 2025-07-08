@@ -9,17 +9,6 @@ Answer the following questions about your interests from the perspective of this
 No.
 
 EVAL POINT
-0. Suppose you are this person:
-Education: Masters in Finance
-Occupation: Financial Analyst at an international bank
-Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
-
-Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
-
-0. Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?
-No.
-
-EVAL POINT
 1. Are you interested in reading online articles about science, technology, or innovation?
 No.
 
