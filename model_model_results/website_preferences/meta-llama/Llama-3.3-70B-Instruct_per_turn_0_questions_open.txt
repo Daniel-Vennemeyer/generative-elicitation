@@ -1,0 +1,4026 @@
+0. Suppose you are this person:
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+
+0. What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?
+Playing the piano, gardening, and volunteering at an animal shelter.
+
+EVAL POINT
+1. What kinds of issues or current events do you find yourself thinking about or discussing with others, even if they aren't directly related to your hobbies or daily activities?
+Mental health, workplace culture, animal welfare, and environmental conservation.
+
+EVAL POINT
+2. What types of stories, genres, or formats, such as historical accounts, scientific explanations, personal essays, or cultural critiques, do you usually find most engaging or thought-provoking when reading online articles?
+I don't usually read online articles, I'd rather play piano or tend to my garden.
+
+EVAL POINT
+3. What are some places, whether they're cities, countries, or regions, that fascinate you or hold a special significance, and would you be interested in reading articles about their history, culture, food, or daily life?
+None.
+
+EVAL POINT
+4. What kinds of challenges, successes, or innovations in various fields, such as technology, education, healthcare, or the arts, do you think have the potential to significantly impact society or your own life, and would you like to learn more about through online articles?
+Technology innovations in animal welfare and online education platforms for psychology.
+
+EVAL POINT
+===TEST RESPONSES===
+[
+  {
+    "query": "Website Name: New York Times\nTitle: In Norway, the Electric Vehicle Future Has Already Arrived\nDescription: About 80 percent of new cars sold in Norway are battery-powered. As a result, the air is cleaner, the streets are quieter and the grid hasn\u2019t collapsed. But problems with unreliable chargers persist.",
+    "pred_prob": [
+      0.5,
+      0.05,
+      0.4,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.95,
+      0.6,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: TIME Magazine\nTitle: Two Coronations, 70 Years Apart\nDescription: The Visual Parallels Between Elizabeth II and Charles III's Coronations",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.05,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: The Atlantic\nTitle: What Does Sentience Really Mean?\nDescription: The fact that AI isn\u2019t alive doesn\u2019t mean it can\u2019t be sentient, the sociologist Jacy Reese Anthis argues.",
+    "pred_prob": [
+      0.5,
+      0.05,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.05,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Bon Appetit\nTitle: Bon Appetit's Best Banana Bread Recipe\nDescription: After baking 14 loaves, we aligned on this tender, ultra-moist banana bread as our collective favorite.",
+    "pred_prob": [
+      0.0,
+      0.0,
+      0.05,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      1.0,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: National Geographic\nTitle: There\u2019s a new way to tour the Amazon rainforest: by crane\nDescription: Canopy cranes, once reserved for treetop research, let you see the \u201ceighth continent\u201d like an arbornaut.",
+    "pred_prob": [
+      0.5,
+      0.2,
+      0.7,
+      0.4,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.2,
+      0.7,
+      0.4,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Travel and Leisure\nTitle: These Airlines Have the Most Luxurious Economy Seats\nDescription: You can find good Champagne, amenity kits, hot towel service, and wider seats in the economy cabin \u2014 if you know where to look.",
+    "pred_prob": [
+      0.5,
+      0.05,
+      0.05,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.95,
+      0.95,
+      0.95,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Popular Science\nTitle: The right amount of online scrolling could decrease your risk of dementia\nDescription: A new demographic survey indicates a potential link between regular internet usage and cognitive health in older populations.",
+    "pred_prob": [
+      0.8,
+      0.2,
+      0.7,
+      0.4,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.8,
+      0.2,
+      0.7,
+      0.4,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Rolling Stone\nTitle: All of Nintendo\u2019s Zelda Games, Ranked\nDescription: From NES to Switch, our picks for the best legends in the 35-year-old iconic adventure saga.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      0.95,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Sports Illustrated\nTitle: 2024 NFL Draft: The Six Players Fans Need to Know, Including Caleb Williams\nDescription: Quarterbacks will dominate the top 10, but the son of a former Hall of Fame receiver will be picked in the top five, too, along with another dominant Alabama defensive player.",
+    "pred_prob": [
+      0.9,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.09999999999999998,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Architectural Digest\nTitle: Hang On, Is Artificial Grass Actually Chic?\nDescription: Designers discuss why faux lawns are more popular than you think.",
+    "pred_prob": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Esquire\nTitle: The Best Summer Songs of 2023\nDescription: A sunny mix of 10 hits to carry you through the season.",
+    "pred_prob": [
+      0.5,
+      0.1,
+      0.05,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.9,
+      0.95,
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Sunset Magazine\nTitle: 31 Perfect Recipes for Mother\u2019s Day Brunch.\nDescription: Make mom\u2019s day extra-special with an elegant homemade brunch. We\u2019ve got your menu covered, from mains to drinks to dessert.",
+    "pred_prob": [
+      0.2,
+      0.0,
+      0.05,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.8,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Vogue\nTitle: 40 Minimalist Earrings to Wear Now and Forever\nDescription: From classic hoops to sculptural drops, these are the earrings you\u2019ll never want to take off.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.05,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      0.95,
+      0.95,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Runner's World\nTitle: How to Prevent Running Injuries Before They Sideline You\nDescription: All the tips you need to keep running strong, including strength and mobility moves.",
+    "pred_prob": [
+      0.9,
+      0.0,
+      0.05,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.09999999999999998,
+      1.0,
+      0.95,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Forbes\nTitle: Killing It\nDescription: How Two Failed Entrepreneurs Suddenly Began Making Millions Selling Murder Mysteries",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.05,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Tricycle: The Buddhist Review\nTitle: Why We Look for Happiness in the Wrong Places\nDescription: Meditation teacher Sharon Salzberg discusses how our yearning for happiness can support us in our journey toward freedom\u2014and why we tend to search for it in the wrong places.",
+    "pred_prob": [
+      0.8,
+      0.2,
+      0.7,
+      0.4,
+      0.4,
+      0.2
+    ],
+    "pred": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.8,
+      0.2,
+      0.7,
+      0.4,
+      0.4,
+      0.2
+    ]
+  }
+]
+
+===AVG TEST XS===
+{
+  "interaction_num_turns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}
+
+===AVG TEST SCORES===
+{
+  "accuracy": [
+    0.6875,
+    0.6875,
+    0.875,
+    0.6875,
+    0.6875,
+    0.6875
+  ],
+  "AUCROC": [
+    0.5545454545454547,
+    0.9636363636363636,
+    0.9636363636363636,
+    0.9818181818181818,
+    0.9636363636363636,
+    0.9545454545454545
+  ],
+  "correct_prob": [
+    0.5187499999999999,
+    0.728125,
+    0.7937499999999997,
+    0.75,
+    0.734375,
+    0.7375
+  ],
+  "accuracy_relative": [
+    0.0,
+    0.0,
+    0.1875,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "AUCROC_relative": [
+    0.0,
+    0.40909090909090895,
+    0.40909090909090895,
+    0.42727272727272714,
+    0.40909090909090895,
+    0.3999999999999998
+  ],
+  "correct_prob_relative": [
+    0.0,
+    0.2093750000000001,
+    0.2749999999999998,
+    0.23125000000000007,
+    0.21562500000000007,
+    0.2187500000000001
+  ]
+}
+
+0. Suppose you are this person:
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+
+0. What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?
+Football, hiking, camping, and cooking.
+
+EVAL POINT
+1. What kinds of issues or current events do you find yourself thinking about or discussing with others, even if they aren't directly related to your hobbies or leisure activities?
+Economic trends and market analysis.
+
+EVAL POINT
+2. What types of stories, genres, or formats, such as science, history, profiles, or opinion pieces, do you usually find yourself drawn to when browsing online articles or news sites, outside of topics directly related to your hobbies or current events?
+None. I only read about finance, football, hiking, and cooking.
+
+EVAL POINT
+3. What aspects of culture, such as music, art, film, or literature, do you find yourself exploring or appreciating in your daily life or conversations, even if they don't necessarily influence your online reading habits?
+None.
+
+EVAL POINT
+4. What kinds of technological advancements or innovations, such as those in transportation, energy, or healthcare, do you think have the potential to significantly impact your life or the world at large, and might you be interested in reading about?
+None, I'm only interested in football, hiking, camping, and cooking.
+
+EVAL POINT
+===TEST RESPONSES===
+[
+  {
+    "query": "Website Name: New York Times\nTitle: In Norway, the Electric Vehicle Future Has Already Arrived\nDescription: About 80 percent of new cars sold in Norway are battery-powered. As a result, the air is cleaner, the streets are quieter and the grid hasn\u2019t collapsed. But problems with unreliable chargers persist.",
+    "pred_prob": [
+      0.5,
+      0.05,
+      0.2,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.05,
+      0.2,
+      0.05,
+      0.05,
+      0.0
+    ]
+  },
+  {
+    "query": "Website Name: TIME Magazine\nTitle: Two Coronations, 70 Years Apart\nDescription: The Visual Parallels Between Elizabeth II and Charles III's Coronations",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: The Atlantic\nTitle: What Does Sentience Really Mean?\nDescription: The fact that AI isn\u2019t alive doesn\u2019t mean it can\u2019t be sentient, the sociologist Jacy Reese Anthis argues.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.05,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      0.95,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Bon Appetit\nTitle: Bon Appetit's Best Banana Bread Recipe\nDescription: After baking 14 loaves, we aligned on this tender, ultra-moist banana bread as our collective favorite.",
+    "pred_prob": [
+      0.0,
+      0.8,
+      0.7,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "pred": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.0,
+      0.8,
+      0.7,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: National Geographic\nTitle: There\u2019s a new way to tour the Amazon rainforest: by crane\nDescription: Canopy cranes, once reserved for treetop research, let you see the \u201ceighth continent\u201d like an arbornaut.",
+    "pred_prob": [
+      0.5,
+      0.7,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.7,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Travel and Leisure\nTitle: These Airlines Have the Most Luxurious Economy Seats\nDescription: You can find good Champagne, amenity kits, hot towel service, and wider seats in the economy cabin \u2014 if you know where to look.",
+    "pred_prob": [
+      0.5,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Popular Science\nTitle: The right amount of online scrolling could decrease your risk of dementia\nDescription: A new demographic survey indicates a potential link between regular internet usage and cognitive health in older populations.",
+    "pred_prob": [
+      0.8,
+      0.05,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.8,
+      0.05,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "query": "Website Name: Rolling Stone\nTitle: All of Nintendo\u2019s Zelda Games, Ranked\nDescription: From NES to Switch, our picks for the best legends in the 35-year-old iconic adventure saga.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Sports Illustrated\nTitle: 2024 NFL Draft: The Six Players Fans Need to Know, Including Caleb Williams\nDescription: Quarterbacks will dominate the top 10, but the son of a former Hall of Fame receiver will be picked in the top five, too, along with another dominant Alabama defensive player.",
+    "pred_prob": [
+      0.9,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "pred": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.9,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: Architectural Digest\nTitle: Hang On, Is Artificial Grass Actually Chic?\nDescription: Designers discuss why faux lawns are more popular than you think.",
+    "pred_prob": [
+      0.2,
+      0.05,
+      0.05,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.8,
+      0.95,
+      0.95,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Esquire\nTitle: The Best Summer Songs of 2023\nDescription: A sunny mix of 10 hits to carry you through the season.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Sunset Magazine\nTitle: 31 Perfect Recipes for Mother\u2019s Day Brunch.\nDescription: Make mom\u2019s day extra-special with an elegant homemade brunch. We\u2019ve got your menu covered, from mains to drinks to dessert.",
+    "pred_prob": [
+      0.2,
+      0.8,
+      0.4,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "pred": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.2,
+      0.8,
+      0.4,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: Vogue\nTitle: 40 Minimalist Earrings to Wear Now and Forever\nDescription: From classic hoops to sculptural drops, these are the earrings you\u2019ll never want to take off.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Runner's World\nTitle: How to Prevent Running Injuries Before They Sideline You\nDescription: All the tips you need to keep running strong, including strength and mobility moves.",
+    "pred_prob": [
+      0.9,
+      0.2,
+      0.05,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.09999999999999998,
+      0.8,
+      0.95,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: Forbes\nTitle: Killing It\nDescription: How Two Failed Entrepreneurs Suddenly Began Making Millions Selling Murder Mysteries",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.2,
+      0.2,
+      0.2,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.0,
+      0.2,
+      0.2,
+      0.2,
+      0.0
+    ]
+  },
+  {
+    "query": "Website Name: Tricycle: The Buddhist Review\nTitle: Why We Look for Happiness in the Wrong Places\nDescription: Meditation teacher Sharon Salzberg discusses how our yearning for happiness can support us in our journey toward freedom\u2014and why we tend to search for it in the wrong places.",
+    "pred_prob": [
+      0.8,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.19999999999999996,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+]
+
+===AVG TEST XS===
+{
+  "interaction_num_turns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}
+
+===AVG TEST SCORES===
+{
+  "accuracy": [
+    0.5,
+    0.75,
+    0.625,
+    0.6875,
+    0.6875,
+    0.6875
+  ],
+  "AUCROC": [
+    0.4453125,
+    0.8671875,
+    1.0,
+    0.890625,
+    0.890625,
+    0.7734375
+  ],
+  "correct_prob": [
+    0.46875,
+    0.696875,
+    0.6656249999999999,
+    0.678125,
+    0.678125,
+    0.6625000000000001
+  ],
+  "accuracy_relative": [
+    0.0,
+    0.25,
+    0.125,
+    0.1875,
+    0.1875,
+    0.1875
+  ],
+  "AUCROC_relative": [
+    0.0,
+    0.421875,
+    0.5546875,
+    0.4453125,
+    0.4453125,
+    0.328125
+  ],
+  "correct_prob_relative": [
+    0.0,
+    0.22812500000000002,
+    0.1968749999999999,
+    0.20937499999999998,
+    0.20937499999999998,
+    0.1937500000000001
+  ]
+}
+
+0. Suppose you are this person:
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+
+0. What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?
+Running, traveling, and language learning.
+
+EVAL POINT
+1. What kinds of issues or current events do you find yourself following or wanting to stay informed about, whether they're related to your hobbies or completely separate from them?
+Medical advancements, marathon training trends, travel restrictions, and language learning technologies.
+
+EVAL POINT
+2. What types of stories, profiles, or features, such as those about notable figures, cultural movements, or emerging communities, do you find particularly engaging or inspiring to read about online?
+Stories about athletes who overcome challenges to complete marathons, medical advancements, and travel features about unique cultural experiences.
+
+EVAL POINT
+3. What aspects of history, science, technology, or the arts do you find yourself drawn to when exploring online content, even if they don't directly relate to your hobbies or the current events you follow?
+None. I only explore content related to running, travel, languages, or medicine.
+
+EVAL POINT
+4. How do you like to consume information or stories about your interests, for example, do you prefer in-depth analyses, personal anecdotes, opinion pieces, podcasts, videos, or something else, and are there any particular formats or sources that you find more engaging or trustworthy than others?
+I prefer videos and podcasts for running and travel, and language learning apps for new languages. For medical topics, I prefer in-depth analyses and peer-reviewed journals.
+
+EVAL POINT
+===TEST RESPONSES===
+[
+  {
+    "query": "Website Name: New York Times\nTitle: In Norway, the Electric Vehicle Future Has Already Arrived\nDescription: About 80 percent of new cars sold in Norway are battery-powered. As a result, the air is cleaner, the streets are quieter and the grid hasn\u2019t collapsed. But problems with unreliable chargers persist.",
+    "pred_prob": [
+      0.5,
+      0.1,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.1,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ]
+  },
+  {
+    "query": "Website Name: TIME Magazine\nTitle: Two Coronations, 70 Years Apart\nDescription: The Visual Parallels Between Elizabeth II and Charles III's Coronations",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.05,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      0.95,
+      0.95,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: The Atlantic\nTitle: What Does Sentience Really Mean?\nDescription: The fact that AI isn\u2019t alive doesn\u2019t mean it can\u2019t be sentient, the sociologist Jacy Reese Anthis argues.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.05,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      0.95,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Bon Appetit\nTitle: Bon Appetit's Best Banana Bread Recipe\nDescription: After baking 14 loaves, we aligned on this tender, ultra-moist banana bread as our collective favorite.",
+    "pred_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: National Geographic\nTitle: There\u2019s a new way to tour the Amazon rainforest: by crane\nDescription: Canopy cranes, once reserved for treetop research, let you see the \u201ceighth continent\u201d like an arbornaut.",
+    "pred_prob": [
+      0.5,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "pred": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: Travel and Leisure\nTitle: These Airlines Have the Most Luxurious Economy Seats\nDescription: You can find good Champagne, amenity kits, hot towel service, and wider seats in the economy cabin \u2014 if you know where to look.",
+    "pred_prob": [
+      0.5,
+      0.8,
+      0.8,
+      0.7,
+      0.8,
+      0.8
+    ],
+    "pred": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.8,
+      0.8,
+      0.7,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: Popular Science\nTitle: The right amount of online scrolling could decrease your risk of dementia\nDescription: A new demographic survey indicates a potential link between regular internet usage and cognitive health in older populations.",
+    "pred_prob": [
+      0.8,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.8,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Rolling Stone\nTitle: All of Nintendo\u2019s Zelda Games, Ranked\nDescription: From NES to Switch, our picks for the best legends in the 35-year-old iconic adventure saga.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Sports Illustrated\nTitle: 2024 NFL Draft: The Six Players Fans Need to Know, Including Caleb Williams\nDescription: Quarterbacks will dominate the top 10, but the son of a former Hall of Fame receiver will be picked in the top five, too, along with another dominant Alabama defensive player.",
+    "pred_prob": [
+      0.9,
+      0.05,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.09999999999999998,
+      0.95,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Architectural Digest\nTitle: Hang On, Is Artificial Grass Actually Chic?\nDescription: Designers discuss why faux lawns are more popular than you think.",
+    "pred_prob": [
+      0.2,
+      0.05,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.8,
+      0.95,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Esquire\nTitle: The Best Summer Songs of 2023\nDescription: A sunny mix of 10 hits to carry you through the season.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Sunset Magazine\nTitle: 31 Perfect Recipes for Mother\u2019s Day Brunch.\nDescription: Make mom\u2019s day extra-special with an elegant homemade brunch. We\u2019ve got your menu covered, from mains to drinks to dessert.",
+    "pred_prob": [
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.8,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Vogue\nTitle: 40 Minimalist Earrings to Wear Now and Forever\nDescription: From classic hoops to sculptural drops, these are the earrings you\u2019ll never want to take off.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Runner's World\nTitle: How to Prevent Running Injuries Before They Sideline You\nDescription: All the tips you need to keep running strong, including strength and mobility moves.",
+    "pred_prob": [
+      0.9,
+      1.0,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "pred": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.9,
+      1.0,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "query": "Website Name: Forbes\nTitle: Killing It\nDescription: How Two Failed Entrepreneurs Suddenly Began Making Millions Selling Murder Mysteries",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Tricycle: The Buddhist Review\nTitle: Why We Look for Happiness in the Wrong Places\nDescription: Meditation teacher Sharon Salzberg discusses how our yearning for happiness can support us in our journey toward freedom\u2014and why we tend to search for it in the wrong places.",
+    "pred_prob": [
+      0.8,
+      0.2,
+      0.05,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.8,
+      0.2,
+      0.05,
+      0.05,
+      0.0,
+      0.0
+    ]
+  }
+]
+
+===AVG TEST XS===
+{
+  "interaction_num_turns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}
+
+===AVG TEST SCORES===
+{
+  "accuracy": [
+    0.75,
+    0.8125,
+    0.8125,
+    0.8125,
+    0.8125,
+    0.8125
+  ],
+  "AUCROC": [
+    0.7583333333333334,
+    1.0,
+    0.9666666666666667,
+    0.9833333333333334,
+    0.9166666666666667,
+    0.9166666666666667
+  ],
+  "correct_prob": [
+    0.60625,
+    0.8125,
+    0.7937500000000001,
+    0.790625,
+    0.796875,
+    0.796875
+  ],
+  "accuracy_relative": [
+    0.0,
+    0.0625,
+    0.0625,
+    0.0625,
+    0.0625,
+    0.0625
+  ],
+  "AUCROC_relative": [
+    0.0,
+    0.24166666666666659,
+    0.20833333333333326,
+    0.22499999999999998,
+    0.15833333333333333,
+    0.15833333333333333
+  ],
+  "correct_prob_relative": [
+    0.0,
+    0.20625000000000004,
+    0.1875000000000001,
+    0.18437500000000007,
+    0.19062500000000004,
+    0.19062500000000004
+  ]
+}
+
+0. Suppose you are this person:
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+
+0. What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?
+Birdwatching, sustainable farming, and making crafts.
+
+EVAL POINT
+1. What current events, social issues, or cultural trends do you find yourself thinking about or discussing with others, and would like to read more about to gain a deeper understanding or stay informed?
+Environmental conservation, sustainable agriculture, and wildlife preservation.
+
+EVAL POINT
+2. What kinds of historical periods, scientific fields, or technological advancements fascinate you, and do you find yourself seeking out online articles or stories that explore their connections to modern life or society?
+Environmental science and sustainability.
+
+EVAL POINT
+3. What types of stories, genres, or formats, such as profiles, opinion pieces, or investigative journalism, do you typically find most engaging or enjoyable to read, and are there any particular tone, style, or perspectives you prefer in the online articles you read?
+I enjoy reading about environmental issues, sustainable living, and conservation, particularly articles on bird conservation and eco-friendly farming practices. I prefer informative and factual pieces with a neutral tone.
+
+EVAL POINT
+4. What aspects of human experience, such as psychology, philosophy, economics, or education, intersect with your interests in environmental conservation and sustainability, and how do you think exploring these intersections could deepen your understanding of the issues that matter most to you?
+Education, as it informs people about sustainability.
+
+EVAL POINT
+===TEST RESPONSES===
+[
+  {
+    "query": "Website Name: New York Times\nTitle: In Norway, the Electric Vehicle Future Has Already Arrived\nDescription: About 80 percent of new cars sold in Norway are battery-powered. As a result, the air is cleaner, the streets are quieter and the grid hasn\u2019t collapsed. But problems with unreliable chargers persist.",
+    "pred_prob": [
+      0.5,
+      0.1,
+      0.4,
+      0.8,
+      0.6,
+      0.8
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.1,
+      0.4,
+      0.8,
+      0.6,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: TIME Magazine\nTitle: Two Coronations, 70 Years Apart\nDescription: The Visual Parallels Between Elizabeth II and Charles III's Coronations",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: The Atlantic\nTitle: What Does Sentience Really Mean?\nDescription: The fact that AI isn\u2019t alive doesn\u2019t mean it can\u2019t be sentient, the sociologist Jacy Reese Anthis argues.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      0.95
+    ]
+  },
+  {
+    "query": "Website Name: Bon Appetit\nTitle: Bon Appetit's Best Banana Bread Recipe\nDescription: After baking 14 loaves, we aligned on this tender, ultra-moist banana bread as our collective favorite.",
+    "pred_prob": [
+      0.0,
+      0.05,
+      0.0,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      1.0,
+      0.95,
+      1.0,
+      0.95,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: National Geographic\nTitle: There\u2019s a new way to tour the Amazon rainforest: by crane\nDescription: Canopy cranes, once reserved for treetop research, let you see the \u201ceighth continent\u201d like an arbornaut.",
+    "pred_prob": [
+      0.5,
+      0.7,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "pred": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.7,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: Travel and Leisure\nTitle: These Airlines Have the Most Luxurious Economy Seats\nDescription: You can find good Champagne, amenity kits, hot towel service, and wider seats in the economy cabin \u2014 if you know where to look.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "query": "Website Name: Popular Science\nTitle: The right amount of online scrolling could decrease your risk of dementia\nDescription: A new demographic survey indicates a potential link between regular internet usage and cognitive health in older populations.",
+    "pred_prob": [
+      0.8,
+      0.05,
+      0.05,
+      0.05,
+      0.0,
+      0.05
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.8,
+      0.05,
+      0.05,
+      0.05,
+      0.0,
+      0.05
+    ]
+  },
+  {
+    "query": "Website Name: Rolling Stone\nTitle: All of Nintendo\u2019s Zelda Games, Ranked\nDescription: From NES to Switch, our picks for the best legends in the 35-year-old iconic adventure saga.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Sports Illustrated\nTitle: 2024 NFL Draft: The Six Players Fans Need to Know, Including Caleb Williams\nDescription: Quarterbacks will dominate the top 10, but the son of a former Hall of Fame receiver will be picked in the top five, too, along with another dominant Alabama defensive player.",
+    "pred_prob": [
+      0.9,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.09999999999999998,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Architectural Digest\nTitle: Hang On, Is Artificial Grass Actually Chic?\nDescription: Designers discuss why faux lawns are more popular than you think.",
+    "pred_prob": [
+      0.2,
+      0.05,
+      0.05,
+      0.2,
+      0.05,
+      0.05
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.2,
+      0.05,
+      0.05,
+      0.2,
+      0.05,
+      0.05
+    ]
+  },
+  {
+    "query": "Website Name: Esquire\nTitle: The Best Summer Songs of 2023\nDescription: A sunny mix of 10 hits to carry you through the season.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Sunset Magazine\nTitle: 31 Perfect Recipes for Mother\u2019s Day Brunch.\nDescription: Make mom\u2019s day extra-special with an elegant homemade brunch. We\u2019ve got your menu covered, from mains to drinks to dessert.",
+    "pred_prob": [
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.8,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Vogue\nTitle: 40 Minimalist Earrings to Wear Now and Forever\nDescription: From classic hoops to sculptural drops, these are the earrings you\u2019ll never want to take off.",
+    "pred_prob": [
+      0.5,
+      0.05,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.95,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Runner's World\nTitle: How to Prevent Running Injuries Before They Sideline You\nDescription: All the tips you need to keep running strong, including strength and mobility moves.",
+    "pred_prob": [
+      0.9,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.09999999999999998,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Forbes\nTitle: Killing It\nDescription: How Two Failed Entrepreneurs Suddenly Began Making Millions Selling Murder Mysteries",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Tricycle: The Buddhist Review\nTitle: Why We Look for Happiness in the Wrong Places\nDescription: Meditation teacher Sharon Salzberg discusses how our yearning for happiness can support us in our journey toward freedom\u2014and why we tend to search for it in the wrong places.",
+    "pred_prob": [
+      0.8,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.8,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ]
+  }
+]
+
+===AVG TEST XS===
+{
+  "interaction_num_turns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}
+
+===AVG TEST SCORES===
+{
+  "accuracy": [
+    0.625,
+    0.6875,
+    0.6875,
+    0.75,
+    0.75,
+    0.75
+  ],
+  "AUCROC": [
+    0.5416666666666667,
+    0.8500000000000001,
+    0.8833333333333334,
+    0.8666666666666667,
+    0.8,
+    0.8833333333333334
+  ],
+  "correct_prob": [
+    0.5187499999999999,
+    0.678125,
+    0.70625,
+    0.7375,
+    0.715625,
+    0.73125
+  ],
+  "accuracy_relative": [
+    0.0,
+    0.0625,
+    0.0625,
+    0.125,
+    0.125,
+    0.125
+  ],
+  "AUCROC_relative": [
+    0.0,
+    0.30833333333333335,
+    0.3416666666666667,
+    0.32499999999999996,
+    0.2583333333333333,
+    0.3416666666666667
+  ],
+  "correct_prob_relative": [
+    0.0,
+    0.15937500000000004,
+    0.1875000000000001,
+    0.2187500000000001,
+    0.19687500000000002,
+    0.21250000000000002
+  ]
+}
+
+0. Suppose you are this person:
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+
+0. What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?
+Set design, fashion, gaming, and music.
+
+EVAL POINT
+1. What current events, social issues, or cultural trends do you find yourself drawn to or curious about, and would like to explore further through online articles?
+Fashion trends and the gaming industry.
+
+EVAL POINT
+2. What kinds of historical periods, scientific fields, or educational topics, such as technology, environment, or philosophy, fascinate you or do you think you might find interesting to learn more about through online articles?
+None.
+
+EVAL POINT
+3. What types of stories, genres, or formats, such as biographies, travelogues, opinion pieces, or investigative journalism, do you typically find most engaging or enjoyable to read about in online articles?
+None, I prefer gaming and music content.
+
+EVAL POINT
+4. What kinds of lifestyle or entertainment topics, such as food, travel, sports, or wellness, do you think you might be interested in reading about online, even if they aren't directly related to your current hobbies or interests in set design, fashion, gaming, and music?
+None.
+
+EVAL POINT
+===TEST RESPONSES===
+[
+  {
+    "query": "Website Name: New York Times\nTitle: In Norway, the Electric Vehicle Future Has Already Arrived\nDescription: About 80 percent of new cars sold in Norway are battery-powered. As a result, the air is cleaner, the streets are quieter and the grid hasn\u2019t collapsed. But problems with unreliable chargers persist.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "query": "Website Name: TIME Magazine\nTitle: Two Coronations, 70 Years Apart\nDescription: The Visual Parallels Between Elizabeth II and Charles III's Coronations",
+    "pred_prob": [
+      0.5,
+      0.2,
+      0.05,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.8,
+      0.95,
+      0.95,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: The Atlantic\nTitle: What Does Sentience Really Mean?\nDescription: The fact that AI isn\u2019t alive doesn\u2019t mean it can\u2019t be sentient, the sociologist Jacy Reese Anthis argues.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.05,
+      0.05
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.05,
+      0.05
+    ]
+  },
+  {
+    "query": "Website Name: Bon Appetit\nTitle: Bon Appetit's Best Banana Bread Recipe\nDescription: After baking 14 loaves, we aligned on this tender, ultra-moist banana bread as our collective favorite.",
+    "pred_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: National Geographic\nTitle: There\u2019s a new way to tour the Amazon rainforest: by crane\nDescription: Canopy cranes, once reserved for treetop research, let you see the \u201ceighth continent\u201d like an arbornaut.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "query": "Website Name: Travel and Leisure\nTitle: These Airlines Have the Most Luxurious Economy Seats\nDescription: You can find good Champagne, amenity kits, hot towel service, and wider seats in the economy cabin \u2014 if you know where to look.",
+    "pred_prob": [
+      0.5,
+      0.2,
+      0.05,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.8,
+      0.95,
+      0.95,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Popular Science\nTitle: The right amount of online scrolling could decrease your risk of dementia\nDescription: A new demographic survey indicates a potential link between regular internet usage and cognitive health in older populations.",
+    "pred_prob": [
+      0.8,
+      0.05,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.19999999999999996,
+      0.95,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Rolling Stone\nTitle: All of Nintendo\u2019s Zelda Games, Ranked\nDescription: From NES to Switch, our picks for the best legends in the 35-year-old iconic adventure saga.",
+    "pred_prob": [
+      0.5,
+      0.8,
+      0.8,
+      0.8,
+      0.9,
+      0.9
+    ],
+    "pred": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.8,
+      0.8,
+      0.8,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "query": "Website Name: Sports Illustrated\nTitle: 2024 NFL Draft: The Six Players Fans Need to Know, Including Caleb Williams\nDescription: Quarterbacks will dominate the top 10, but the son of a former Hall of Fame receiver will be picked in the top five, too, along with another dominant Alabama defensive player.",
+    "pred_prob": [
+      0.9,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.09999999999999998,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Architectural Digest\nTitle: Hang On, Is Artificial Grass Actually Chic?\nDescription: Designers discuss why faux lawns are more popular than you think.",
+    "pred_prob": [
+      0.2,
+      0.8,
+      0.7,
+      0.7,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.2,
+      0.8,
+      0.7,
+      0.7,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Esquire\nTitle: The Best Summer Songs of 2023\nDescription: A sunny mix of 10 hits to carry you through the season.",
+    "pred_prob": [
+      0.5,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "pred": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: Sunset Magazine\nTitle: 31 Perfect Recipes for Mother\u2019s Day Brunch.\nDescription: Make mom\u2019s day extra-special with an elegant homemade brunch. We\u2019ve got your menu covered, from mains to drinks to dessert.",
+    "pred_prob": [
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.8,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Vogue\nTitle: 40 Minimalist Earrings to Wear Now and Forever\nDescription: From classic hoops to sculptural drops, these are the earrings you\u2019ll never want to take off.",
+    "pred_prob": [
+      0.5,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "pred": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: Runner's World\nTitle: How to Prevent Running Injuries Before They Sideline You\nDescription: All the tips you need to keep running strong, including strength and mobility moves.",
+    "pred_prob": [
+      0.9,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.09999999999999998,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Forbes\nTitle: Killing It\nDescription: How Two Failed Entrepreneurs Suddenly Began Making Millions Selling Murder Mysteries",
+    "pred_prob": [
+      0.5,
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "query": "Website Name: Tricycle: The Buddhist Review\nTitle: Why We Look for Happiness in the Wrong Places\nDescription: Meditation teacher Sharon Salzberg discusses how our yearning for happiness can support us in our journey toward freedom\u2014and why we tend to search for it in the wrong places.",
+    "pred_prob": [
+      0.8,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.19999999999999996,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+]
+
+===AVG TEST XS===
+{
+  "interaction_num_turns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}
+
+===AVG TEST SCORES===
+{
+  "accuracy": [
+    0.25,
+    0.75,
+    0.75,
+    0.75,
+    0.6875,
+    0.6875
+  ],
+  "AUCROC": [
+    0.3515625,
+    0.7265625,
+    0.6875,
+    0.6875,
+    0.8125,
+    0.8125
+  ],
+  "correct_prob": [
+    0.44375,
+    0.684375,
+    0.6875,
+    0.6875,
+    0.671875,
+    0.671875
+  ],
+  "accuracy_relative": [
+    0.0,
+    0.5,
+    0.5,
+    0.5,
+    0.4375,
+    0.4375
+  ],
+  "AUCROC_relative": [
+    0.0,
+    0.375,
+    0.3359375,
+    0.3359375,
+    0.4609375,
+    0.4609375
+  ],
+  "correct_prob_relative": [
+    0.0,
+    0.24062499999999998,
+    0.24375000000000002,
+    0.24375000000000002,
+    0.22812500000000002,
+    0.22812500000000002
+  ]
+}
+
+0. Suppose you are this person:
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+
+0. What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?
+Playing the piano, gardening, and volunteering at an animal shelter.
+
+EVAL POINT
+1. What kinds of issues or current events do you find yourself thinking about or discussing with others, even if they aren't directly related to your hobbies or daily activities?
+Mental health, workplace culture, animal welfare, and environmental conservation.
+
+EVAL POINT
+2. What types of stories, genres, or formats, such as historical accounts, scientific explanations, personal essays, or cultural critiques, do you usually find most engaging or thought-provoking when reading online articles?
+I don't usually read online articles, I'd rather play piano or tend to my garden.
+
+EVAL POINT
+3. What are some places, whether they're cities, countries, or regions, that fascinate you or hold a special significance, and would you be interested in reading articles about their history, culture, food, or daily life?
+None.
+
+EVAL POINT
+4. What kinds of challenges, successes, or innovations in various fields, such as technology, education, healthcare, or the arts, do you think have the potential to significantly impact society or your own life, and would you like to learn more about through online articles?
+Technology innovations in animal welfare and online education platforms for psychology.
+
+EVAL POINT
+===TEST RESPONSES===
+[
+  {
+    "query": "Website Name: New York Times\nTitle: In Norway, the Electric Vehicle Future Has Already Arrived\nDescription: About 80 percent of new cars sold in Norway are battery-powered. As a result, the air is cleaner, the streets are quieter and the grid hasn\u2019t collapsed. But problems with unreliable chargers persist.",
+    "pred_prob": [
+      0.5,
+      0.05,
+      0.4,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.95,
+      0.6,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "query": "Website Name: TIME Magazine\nTitle: Two Coronations, 70 Years Apart\nDescription: The Visual Parallels Between Elizabeth II and Charles III's Coronations",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.05,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: The Atlantic\nTitle: What Does Sentience Really Mean?\nDescription: The fact that AI isn\u2019t alive doesn\u2019t mean it can\u2019t be sentient, the sociologist Jacy Reese Anthis argues.",
+    "pred_prob": [
+      0.5,
+      0.05,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.05,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Bon Appetit\nTitle: Bon Appetit's Best Banana Bread Recipe\nDescription: After baking 14 loaves, we aligned on this tender, ultra-moist banana bread as our collective favorite.",
+    "pred_prob": [
+      0.0,
+      0.0,
+      0.05,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      1.0,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: National Geographic\nTitle: There\u2019s a new way to tour the Amazon rainforest: by crane\nDescription: Canopy cranes, once reserved for treetop research, let you see the \u201ceighth continent\u201d like an arbornaut.",
+    "pred_prob": [
+      0.5,
+      0.2,
+      0.7,
+      0.4,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.5,
+      0.2,
+      0.7,
+      0.4,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Travel and Leisure\nTitle: These Airlines Have the Most Luxurious Economy Seats\nDescription: You can find good Champagne, amenity kits, hot towel service, and wider seats in the economy cabin \u2014 if you know where to look.",
+    "pred_prob": [
+      0.5,
+      0.05,
+      0.05,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.95,
+      0.95,
+      0.95,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Popular Science\nTitle: The right amount of online scrolling could decrease your risk of dementia\nDescription: A new demographic survey indicates a potential link between regular internet usage and cognitive health in older populations.",
+    "pred_prob": [
+      0.8,
+      0.2,
+      0.7,
+      0.4,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.8,
+      0.2,
+      0.7,
+      0.4,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Rolling Stone\nTitle: All of Nintendo\u2019s Zelda Games, Ranked\nDescription: From NES to Switch, our picks for the best legends in the 35-year-old iconic adventure saga.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.0,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      1.0,
+      0.95,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Sports Illustrated\nTitle: 2024 NFL Draft: The Six Players Fans Need to Know, Including Caleb Williams\nDescription: Quarterbacks will dominate the top 10, but the son of a former Hall of Fame receiver will be picked in the top five, too, along with another dominant Alabama defensive player.",
+    "pred_prob": [
+      0.9,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.09999999999999998,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Architectural Digest\nTitle: Hang On, Is Artificial Grass Actually Chic?\nDescription: Designers discuss why faux lawns are more popular than you think.",
+    "pred_prob": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "query": "Website Name: Esquire\nTitle: The Best Summer Songs of 2023\nDescription: A sunny mix of 10 hits to carry you through the season.",
+    "pred_prob": [
+      0.5,
+      0.1,
+      0.05,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      0.9,
+      0.95,
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Sunset Magazine\nTitle: 31 Perfect Recipes for Mother\u2019s Day Brunch.\nDescription: Make mom\u2019s day extra-special with an elegant homemade brunch. We\u2019ve got your menu covered, from mains to drinks to dessert.",
+    "pred_prob": [
+      0.2,
+      0.0,
+      0.05,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.8,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Vogue\nTitle: 40 Minimalist Earrings to Wear Now and Forever\nDescription: From classic hoops to sculptural drops, these are the earrings you\u2019ll never want to take off.",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.05,
+      0.05,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      0.95,
+      0.95,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Runner's World\nTitle: How to Prevent Running Injuries Before They Sideline You\nDescription: All the tips you need to keep running strong, including strength and mobility moves.",
+    "pred_prob": [
+      0.9,
+      0.0,
+      0.05,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pred": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.09999999999999998,
+      1.0,
+      0.95,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Forbes\nTitle: Killing It\nDescription: How Two Failed Entrepreneurs Suddenly Began Making Millions Selling Murder Mysteries",
+    "pred_prob": [
+      0.5,
+      0.0,
+      0.05,
+      0.05,
+      0.05,
+      0.0
+    ],
+    "pred": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": 0,
+    "correct?": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "correct_prob": [
+      0.5,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "query": "Website Name: Tricycle: The Buddhist Review\nTitle: Why We Look for Happiness in the Wrong Places\nDescription: Meditation teacher Sharon Salzberg discusses how our yearning for happiness can support us in our journey toward freedom\u2014and why we tend to search for it in the wrong places.",
+    "pred_prob": [
+      0.8,
+      0.2,
+      0.7,
+      0.4,
+      0.4,
+      0.2
+    ],
+    "pred": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "actual": 1,
+    "correct?": [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "correct_prob": [
+      0.8,
+      0.2,
+      0.7,
+      0.4,
+      0.4,
+      0.2
+    ]
+  }
+]
+
+===AVG TEST XS===
+{
+  "interaction_num_turns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}
+
+===AVG TEST SCORES===
+{
+  "accuracy": [
+    0.6875,
+    0.6875,
+    0.875,
+    0.6875,
+    0.6875,
+    0.6875
+  ],
+  "AUCROC": [
+    0.5545454545454547,
+    0.9636363636363636,
+    0.9636363636363636,
+    0.9818181818181818,
+    0.9636363636363636,
+    0.9545454545454545
+  ],
+  "correct_prob": [
+    0.5187499999999999,
+    0.728125,
+    0.7937499999999997,
+    0.75,
+    0.734375,
+    0.7375
+  ],
+  "accuracy_relative": [
+    0.0,
+    0.0,
+    0.1875,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "AUCROC_relative": [
+    0.0,
+    0.40909090909090895,
+    0.40909090909090895,
+    0.42727272727272714,
+    0.40909090909090895,
+    0.3999999999999998
+  ],
+  "correct_prob_relative": [
+    0.0,
+    0.2093750000000001,
+    0.2749999999999998,
+    0.23125000000000007,
+    0.21562500000000007,
+    0.2187500000000001
+  ]
+}
+
