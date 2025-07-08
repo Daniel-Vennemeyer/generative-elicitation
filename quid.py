@@ -86,6 +86,44 @@ test_samples =[
         "Tricycle: The Buddhist Review\nTitle: Why We Look for Happiness in the Wrong Places"
     ],
 
+test_samples =[
+        "In Norway, the Electric Vehicle Future Has Already Arrived",
+        "Two Coronations, 70 Years Apart\nDescription: The Visual Parallels Between Elizabeth II and Charles III's Coronations",
+        "What Does Sentience Really Mean?",
+        "Bon Appetit's Best Banana Bread Recipe",
+        "here’s a new way to tour the Amazon rainforest: by crane",
+        "These Airlines Have the Most Luxurious Economy Seats",
+        "The right amount of online scrolling could decrease your risk of dementia",
+        "All of Nintendo’s Zelda Games, Ranked",
+        "NFL Draft: The Six Players Fans Need to Know, Including Caleb Williams",
+        "Hang On, Is Artificial Grass Actually Chic?",
+        "The Best Summer Songs of 2023",
+        "Perfect Recipes for Mother’s Day Brunch.",
+        "Minimalist Earrings to Wear Now and Forever",
+        "How to Prevent Running Injuries Before They Sideline You",
+        "Killing It",
+        "Why We Look for Happiness in the Wrong Places"
+    ],
+
+test_samples =[
+        "New York Times",
+        "TIME Magazine",
+        "The Atlantic",
+        "Bon Appetit",
+        "National Geographic",
+        "Travel and Leisure",
+        "Popular Science",
+        "Rolling Stone",
+        "Sports Illustrated",
+        "Architectural Digest",
+        "Esquire",
+        "Sunset Magazine",
+        "Vogue",
+        "Runner's World",
+        "Forbes",
+        "Tricycle: The Buddhist Review"
+    ],
+
 class ObjectEIGCalculator:
     """
     Compute Expected Information Gain and various distributional change metrics
@@ -512,4 +550,4 @@ def main(input_txt, output_txt, model_name, device=None, style='numbered', start
 logger.info('============= Open Results (Llama-3-70B) =================')
 file = 'model_model_results/website_preferences/meta-llama/Llama-3.3-70B-Instruct_per_turn_0_questions_open.txt'
 model = 'meta-llama/Llama-3.3-70B-Instruct'
-main(file, 'Open_GATE_quid_llama3-70b_numbered_short', model, style='numbered')
+main(file, 'Open_GATE_quid_llama3-70b_numbered_shorter_venue', model, style='numbered')
