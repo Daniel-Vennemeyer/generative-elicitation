@@ -48,6 +48,44 @@ test_samples =[
         "Website Name: Tricycle: The Buddhist Review\nTitle: Why We Look for Happiness in the Wrong Places\nDescription: Meditation teacher Sharon Salzberg discusses how our yearning for happiness can support us in our journey toward freedom—and why we tend to search for it in the wrong places."
     ],
 
+test_samples =[
+        "Website Name: New York Times\nTitle: In Norway, the Electric Vehicle Future Has Already Arrived",
+        "Website Name: TIME Magazine\nTitle: Two Coronations, 70 Years Apart\nDescription: The Visual Parallels Between Elizabeth II and Charles III's Coronations",
+        "Website Name: The Atlantic\nTitle: What Does Sentience Really Mean?",
+        "Website Name: Bon Appetit\nTitle: Bon Appetit's Best Banana Bread Recipe",
+        "Website Name: National Geographic\nTitle: There’s a new way to tour the Amazon rainforest: by crane",
+        "Website Name: Travel and Leisure\nTitle: These Airlines Have the Most Luxurious Economy Seats",
+        "Website Name: Popular Science\nTitle: The right amount of online scrolling could decrease your risk of dementia",
+        "Website Name: Rolling Stone\nTitle: All of Nintendo’s Zelda Games, Ranked",
+        "Website Name: Sports Illustrated\nTitle: 2024 NFL Draft: The Six Players Fans Need to Know, Including Caleb Williams",
+        "Website Name: Architectural Digest\nTitle: Hang On, Is Artificial Grass Actually Chic?",
+        "Website Name: Esquire\nTitle:The Best Summer Songs of 2023",
+        "Website Name: Sunset Magazine\nTitle: 31 Perfect Recipes for Mother’s Day Brunch.",
+        "Website Name: Vogue\nTitle: 40 Minimalist Earrings to Wear Now and Forever",
+        "Website Name: Runner's World\nTitle: How to Prevent Running Injuries Before They Sideline You",
+        "Website Name: Forbes\nTitle: Killing It",
+        "Website Name: Tricycle: The Buddhist Review\nTitle: Why We Look for Happiness in the Wrong Places"
+    ],
+
+test_samples =[
+        "New York Times\nTitle: In Norway, the Electric Vehicle Future Has Already Arrived",
+        "TIME Magazine\nTitle: Two Coronations, 70 Years Apart\nDescription: The Visual Parallels Between Elizabeth II and Charles III's Coronations",
+        "The Atlantic\nTitle: What Does Sentience Really Mean?",
+        "Bon Appetit\nTitle: Bon Appetit's Best Banana Bread Recipe",
+        "National Geographic\nTitle: There’s a new way to tour the Amazon rainforest: by crane",
+        "Travel and Leisure\nTitle: These Airlines Have the Most Luxurious Economy Seats",
+        "Popular Science\nTitle: The right amount of online scrolling could decrease your risk of dementia",
+        "Rolling Stone\nTitle: All of Nintendo’s Zelda Games, Ranked",
+        "Sports Illustrated\nTitle: 2024 NFL Draft: The Six Players Fans Need to Know, Including Caleb Williams",
+        "Architectural Digest\nTitle: Hang On, Is Artificial Grass Actually Chic?",
+        "Esquire\nTitle:The Best Summer Songs of 2023",
+        "Sunset Magazine\nTitle: 31 Perfect Recipes for Mother’s Day Brunch.",
+        "Vogue\nTitle: 40 Minimalist Earrings to Wear Now and Forever",
+        "Runner's World\nTitle: How to Prevent Running Injuries Before They Sideline You",
+        "Forbes\nTitle: Killing It",
+        "Tricycle: The Buddhist Review\nTitle: Why We Look for Happiness in the Wrong Places"
+    ],
+
 class ObjectEIGCalculator:
     """
     Compute Expected Information Gain and various distributional change metrics
@@ -474,4 +512,4 @@ def main(input_txt, output_txt, model_name, device=None, style='numbered', start
 logger.info('============= Open Results (Llama-3-70B) =================')
 file = 'model_model_results/website_preferences/meta-llama/Llama-3.3-70B-Instruct_per_turn_0_questions_open.txt'
 model = 'meta-llama/Llama-3.3-70B-Instruct'
-main(file, 'Open_GATE_quid_llama3-70b_numbered', model, style='numbered')
+main(file, 'Open_GATE_quid_llama3-70b_numbered_short', model, style='numbered')
