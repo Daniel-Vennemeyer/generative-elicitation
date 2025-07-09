@@ -1,0 +1,126 @@
+object,turn,question,answer,eig,H_prior,H_post,kl,wasserstein,tv,cosine,euclidean,directional,gini_drop,margin_gain,rr_change,ndcg_gain,hybrid,js_divergence,semantic_shift,entropy_constrained_margin,surprisal_adj_belief_shift,fisher_info,normalized_kl,normalized_margin,calibrated_eig,log_odds_gain,entropy_weighted_conf_gain,cross_entropy_reduction,kl_to_truth_reduction,delta_surprisal,sem_info_cosine,sem_info_euclidean,sem_info_dot
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,"Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?",No.,0.408447265625,0.6025390625,0.194091796875,0.14501953125,0.2001953125,0.10748291015625,0.00244140625,0.12261962890625,,0.190673828125,0.14306640625,,,0.25250244140625,,0.9977474212646484,0.23743921810149496,-0.024013608694076538,4.3203125,0.2406807091335973,0.23743921810149496,0.6778768120883978,-0.341796875,-0.0037971287965774536,-0.333984375,-0.333984375,-0.333984375,0.3006768226623535,0.7705633640289307,-0.6903083324432373
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"Are you interested in reading online articles about science, technology, or innovation?",No.,0.3570556640625,0.6025390625,0.2454833984375,0.140869140625,0.2005615234375,0.099853515625,0.00244140625,0.11065673828125,,0.16558837890625,0.11767578125,,,0.24072265625,,0.9981100559234619,0.1952998346841648,0.021687835454940796,4.34765625,0.23379254069037986,0.1952998346841648,0.5925850793062054,0.234375,0.0034293681383132935,0.228515625,0.228515625,0.228515625,0.29395341873168945,0.7604871392250061,-0.6942213773727417
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"Are you interested in reading online articles about history, culture, or current events?",No.,0.324462890625,0.6025390625,0.278076171875,0.10211181640625,0.185791015625,0.0921630859375,0.001953125,0.10247802734375,,0.15313720703125,0.11181640625,,,0.19427490234375,,0.9983678460121155,0.18557536158785784,0.017734020948410034,5.5859375,0.16946920302209945,0.18557536158785784,0.538492697707998,0.1953125,0.002804175019264221,0.19140625,0.19140625,0.19140625,0.29285550117492676,0.7580400705337524,-0.6932966709136963
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"Are you interested in reading online articles about sports, fitness, or outdoor activities?",Yes.,0.171142578125,0.6025390625,0.431396484375,0.11810302734375,0.236572265625,0.0933837890625,0.00439453125,0.087158203125,,0.0626220703125,0.005859375,,,0.21148681640625,,0.9985849261283875,0.009724473096306962,0.22211134433746338,2.8203125,0.19600891084743718,0.009724473096306962,0.2840356516879658,1.349609375,0.035121142864227295,1.291015625,1.291015625,1.291015625,0.2649043798446655,0.7163679003715515,-0.7104707956314087
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"Are you interested in reading online articles about food, cooking, or travel?","Yes, cooking.",-0.32470703125,0.6025390625,0.92724609375,0.759765625,1.0673828125,0.56884765625,0.46044921875,0.7568359375,,-0.273681640625,-0.55712890625,,,1.32861328125,,0.8806129693984985,-0.9246353169071869,0.06390061974525452,2.25390625,1.2609400114878027,-0.9246353169071869,-0.5388978840870108,0.580078125,0.0101042240858078,0.564453125,0.564453125,0.564453125,0.25824880599975586,0.6885520219802856,-0.6658192873001099
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,"Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?",No.,0.408447265625,0.6025390625,0.194091796875,0.14501953125,0.2001953125,0.10748291015625,0.00244140625,0.12261962890625,,0.190673828125,0.14306640625,,,0.25250244140625,,0.9977474212646484,0.23743921810149496,0.01658797264099121,4.3203125,0.2406807091335973,0.23743921810149496,0.6778768120883978,1.5087890625,0.06472587585449219,0.118133544921875,0.118133544921875,0.118133544921875,0.00022971630096435547,0.024894624948501587,-0.986882209777832
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"Are you interested in reading online articles about science, technology, or innovation?",No.,0.3570556640625,0.6025390625,0.2454833984375,0.140869140625,0.2005615234375,0.099853515625,0.00244140625,0.11065673828125,,0.16558837890625,0.11767578125,,,0.24072265625,,0.9981100559234619,0.1952998346841648,0.014552175998687744,4.34765625,0.23379254069037986,0.1952998346841648,0.5925850793062054,1.1787109375,0.05678224563598633,0.1043701171875,0.1043701171875,0.1043701171875,0.0004588961601257324,0.034392502158880234,-0.9828002452850342
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"Are you interested in reading online articles about history, culture, or current events?",No.,0.324462890625,0.6025390625,0.278076171875,0.10211181640625,0.185791015625,0.0921630859375,0.001953125,0.10247802734375,,0.15313720703125,0.11181640625,,,0.19427490234375,,0.9983678460121155,0.18557536158785784,0.013496577739715576,5.5859375,0.16946920302209945,0.18557536158785784,0.538492697707998,1.0419921875,0.052663326263427734,0.097137451171875,0.097137451171875,0.097137451171875,0.0005627870559692383,0.03856206685304642,-0.9798654317855835
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"Are you interested in reading online articles about sports, fitness, or outdoor activities?",Yes.,0.171142578125,0.6025390625,0.431396484375,0.11810302734375,0.236572265625,0.0933837890625,0.00439453125,0.087158203125,,0.0626220703125,0.005859375,,,0.21148681640625,,0.9985849261283875,0.009724473096306962,0.005428791046142578,2.8203125,0.19600891084743718,0.009724473096306962,0.2840356516879658,0.3212890625,0.021183013916015625,0.04022216796875,0.04022216796875,0.04022216796875,0.002522885799407959,0.07745229452848434,-0.9640626907348633
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"Are you interested in reading online articles about food, cooking, or travel?",Travel.,0.4625244140625,0.6025390625,0.1400146484375,0.33447265625,0.219482421875,0.117431640625,0.00341796875,0.1343994140625,,0.20587158203125,0.14208984375,,,0.451904296875,,0.9972349405288696,0.2358184725854438,0.017794370651245117,3.48046875,0.5551053392475224,0.2358184725854438,0.7676255950397307,1.7626953125,0.06943321228027344,0.126190185546875,0.126190185546875,0.126190185546875,0.00018101930618286133,0.020943179726600647,-0.9908861517906189
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,"Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?",No.,0.408447265625,0.6025390625,0.194091796875,0.14501953125,0.2001953125,0.10748291015625,0.00244140625,0.12261962890625,,0.190673828125,0.14306640625,,,0.25250244140625,,0.9977474212646484,0.23743921810149496,-0.11380809545516968,4.3203125,0.2406807091335973,0.23743921810149496,0.6778768120883978,-1.40625,-0.023113757371902466,-1.365234375,-1.365234375,-1.365234375,0.4171794056892395,0.907617449760437,-0.5753075480461121
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"Are you interested in reading online articles about science, technology, or innovation?",Yes.,-0.05810546875,0.6025390625,0.66064453125,0.43359375,0.467529296875,0.259033203125,0.06396484375,0.305908203125,,-0.16064453125,-0.3798828125,,,0.692626953125,,0.983809769153595,-0.6304700057439013,-0.12548768520355225,3.0078125,0.7196110091267152,-0.6304700057439013,-0.09643435820504404,-1.765625,-0.0254858136177063,-1.724609375,-1.724609375,-1.724609375,0.36482346057891846,0.8269002437591553,-0.5910288095474243
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"Are you interested in reading online articles about travel, culture, or history?",No.,0.3946533203125,0.6025390625,0.2078857421875,0.15966796875,0.1998291015625,0.103515625,0.0029296875,0.11968994140625,,0.18304443359375,0.13232421875,,,0.26318359375,,0.9978253841400146,0.2196110174249322,-0.11742967367172241,4.35546875,0.26499189187436467,0.2196110174249322,0.6549837816741751,-1.50390625,-0.023849278688430786,-1.462890625,-1.462890625,-1.462890625,0.41668540239334106,0.9067365527153015,-0.5753446817398071
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"Are you interested in reading online articles about sports, fitness, or wellness?",No.,0.3602294921875,0.6025390625,0.2423095703125,0.0972900390625,0.18505859375,0.0970458984375,0.00244140625,0.110107421875,,0.1707763671875,0.1279296875,,,0.1943359375,,0.9982064962387085,0.212317662602702,-0.09117323160171509,4.6484375,0.16146677203659685,0.212317662602702,0.5978525022333717,-0.94140625,-0.018516749143600464,-0.908203125,-0.908203125,-0.908203125,0.4113296866416931,0.8995307087898254,-0.5788065195083618
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"Are you interested in reading online articles about business, economics, or personal finance?",No.,0.269287109375,0.6025390625,0.333251953125,0.06646728515625,0.16357421875,0.07769775390625,0.00146484375,0.08685302734375,,0.128662109375,0.09765625,,,0.1441650390625,,0.9988383650779724,0.16207455160511602,-0.07062077522277832,3.640625,0.11031199168623208,0.16207455160511602,0.4469205760511074,-0.64453125,-0.014342665672302246,-0.62109375,-0.62109375,-0.62109375,0.4027731418609619,0.886739194393158,-0.5825124382972717
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,"Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?","Yes, music.",0.194580078125,0.6025390625,0.407958984375,0.138916015625,0.2410888671875,0.0980224609375,0.00439453125,0.0908203125,,0.072021484375,0.01220703125,,,0.2369384765625,,0.9984698295593262,0.020259318950639503,-0.10948336124420166,2.935546875,0.23055104965827752,0.020259318950639503,0.3229335440731937,-2.208984375,-0.02011650800704956,-2.173828125,-2.173828125,-2.173828125,0.3406916856765747,0.8129196763038635,-0.6384615898132324
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,Are you interested in reading online articles about science and technology?,No.,0.34716796875,0.6025390625,0.25537109375,0.1558837890625,0.2120361328125,0.10211181640625,0.00244140625,0.108642578125,,0.15863037109375,0.107421875,,,0.25799560546875,,0.9981421828269958,0.1782820067656276,-0.11118465662002563,4.88671875,0.25871150299966644,0.1782820067656276,0.5761750309561875,-2.341796875,-0.020429104566574097,-2.306640625,-2.306640625,-2.306640625,0.3500936031341553,0.8295056819915771,-0.6383761167526245
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,Are you interested in reading online articles about sports or fitness?,No.,0.4129638671875,0.6025390625,0.1895751953125,0.13232421875,0.20166015625,0.10882568359375,0.00244140625,0.12310791015625,,0.19317626953125,0.14404296875,,,0.24114990234375,,0.9977723956108093,0.23905996361754614,-0.10497993230819702,5.2109375,0.2196110174249322,0.23905996361754614,0.6853727601001344,-1.927734375,-0.0192890465259552,-1.896484375,-1.896484375,-1.896484375,0.35277122259140015,0.8347216248512268,-0.6390249133110046
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"Are you interested in reading online articles about travel, culture, or history?",No.,0.3946533203125,0.6025390625,0.2078857421875,0.15966796875,0.1998291015625,0.103515625,0.0029296875,0.11968994140625,,0.18304443359375,0.13232421875,,,0.26318359375,,0.9978253841400146,0.2196110174249322,-0.10998374223709106,4.35546875,0.26499189187436467,0.2196110174249322,0.6549837816741751,-2.248046875,-0.0202084481716156,-2.212890625,-2.212890625,-2.212890625,0.3524754047393799,0.8339699506759644,-0.6386773586273193
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"Are you interested in reading online articles about food, cooking, or lifestyle?",No.,0.28076171875,0.6025390625,0.32177734375,0.08258056640625,0.17919921875,0.0848388671875,0.001953125,0.09130859375,,0.1329345703125,0.09765625,,,0.16741943359375,,0.9986978769302368,0.16207455160511602,-0.09156972169876099,3.60546875,0.13705429270107622,0.16207455160511602,0.46596433586470853,-1.380859375,-0.016825050115585327,-1.353515625,-1.353515625,-1.353515625,0.3447093963623047,0.8209975361824036,-0.6401635408401489
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,"Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?",No.,0.408447265625,0.6025390625,0.194091796875,0.14501953125,0.2001953125,0.10748291015625,0.00244140625,0.12261962890625,,0.190673828125,0.14306640625,,,0.25250244140625,,0.9977474212646484,0.23743921810149496,-0.10279369354248047,4.3203125,0.2406807091335973,0.23743921810149496,0.6778768120883978,-2.833984375,-0.017946720123291016,-2.802734375,-2.802734375,-2.802734375,0.31720149517059326,0.7914488315582275,-0.6739965677261353
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"Are you interested in reading online articles about science, technology, or innovation?",No.,0.3570556640625,0.6025390625,0.2454833984375,0.140869140625,0.2005615234375,0.099853515625,0.00244140625,0.11065673828125,,0.16558837890625,0.11767578125,,,0.24072265625,,0.9981100559234619,0.1952998346841648,-0.10358360409736633,4.34765625,0.23379254069037986,0.1952998346841648,0.5925850793062054,-2.955078125,-0.018084630370140076,-2.927734375,-2.927734375,-2.927734375,0.31446415185928345,0.7865591049194336,-0.6740541458129883
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"Are you interested in reading online articles about history, culture, or current events?",No.,0.324462890625,0.6025390625,0.278076171875,0.10211181640625,0.185791015625,0.0921630859375,0.001953125,0.10247802734375,,0.15313720703125,0.11181640625,,,0.19427490234375,,0.9983678460121155,0.18557536158785784,-0.0995287299156189,5.5859375,0.16946920302209945,0.18557536158785784,0.538492697707998,-2.431640625,-0.017376691102981567,-2.404296875,-2.404296875,-2.404296875,0.31257331371307373,0.7831271290779114,-0.6739649772644043
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"Are you interested in reading online articles about sports, fitness, or outdoor activities?",No.,0.412109375,0.6025390625,0.1904296875,0.1326904296875,0.201171875,0.1087646484375,0.00244140625,0.1231689453125,,0.1929931640625,0.14501953125,,,0.241455078125,,0.997769296169281,0.2406807091335973,-0.10289901494979858,4.03125,0.2202187969934514,0.2406807091335973,0.6839546077735896,-2.845703125,-0.017965108156204224,-2.818359375,-2.818359375,-2.818359375,0.31734293699264526,0.7917711734771729,-0.6741160154342651
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"Are you interested in reading online articles about personal development, self-improvement, or lifestyle topics?",No.,0.209716796875,0.6025390625,0.392822265625,0.06060791015625,0.1671142578125,0.07086181640625,0.00146484375,0.072021484375,,0.0980224609375,0.072265625,,,0.1314697265625,,0.9991668462753296,0.11993516818778585,-0.09236687421798706,2.58984375,0.10058751858992512,0.11993516818778585,0.34805509957198666,-1.884765625,-0.016126304864883423,-1.857421875,-1.857421875,-1.857421875,0.3051488995552063,0.7699522376060486,-0.6739266514778137

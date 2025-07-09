@@ -214,3 +214,30 @@ Education: Bachelor's degree in Psychology
 Occupation: HR Manager at a tech company
 Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
 Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+2025-07-09 13:05:28 INFO: ============= Open Results (Llama-3-70B) =================
+2025-07-09 13:06:17 INFO: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-09 13:06:22 INFO: Processed :
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+2025-07-09 13:06:23 INFO: Processed :
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+2025-07-09 13:06:25 INFO: Processed :
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+2025-07-09 13:06:27 INFO: Processed :
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.
+2025-07-09 13:06:28 INFO: Processed :
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.

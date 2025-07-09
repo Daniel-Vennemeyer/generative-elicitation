@@ -548,6 +548,6 @@ def main(input_txt, output_txt, model_name, device=None, style='numbered', start
 
 
 logger.info('============= Open Results (Llama-3-70B) =================')
-file = 'model_model_results/website_preferences/meta-llama/Llama-3.3-70B-Instruct_per_turn_0_questions_open.txt'
+file = 'model_model_results/website_preferences/meta-llama/Llama-3.3-70B-Instruct_per_turn_0_questions_yn.txt'
 model = 'meta-llama/Llama-3.3-70B-Instruct'
-main(file, 'Open_GATE_quid_llama3-70b_numbered_shorter_title', model, style='numbered')
+main(file, 'closed_GATE_quid_llama3-70b_numbered_shorter_title', model, style='numbered')
