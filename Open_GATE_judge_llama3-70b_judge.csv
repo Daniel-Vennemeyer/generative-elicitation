@@ -1,0 +1,126 @@
+object,turn,question,answer,llm_score
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?,"Football, hiking, camping, and cooking.",5
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"What kinds of issues or current events do you find yourself thinking about or discussing with others, even if they aren't directly related to your hobbies or leisure activities?",Economic trends and market analysis.,5
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"What types of stories, genres, or formats, such as science, history, profiles, or opinion pieces, do you usually find yourself drawn to when browsing online articles or news sites, outside of topics directly related to your hobbies or current events?","None. I only read about finance, football, hiking, and cooking.",4
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"What aspects of culture, such as music, art, film, or literature, do you find yourself exploring or appreciating in your daily life or conversations, even if they don't necessarily influence your online reading habits?",None.,3
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"What kinds of technological advancements or innovations, such as those in transportation, energy, or healthcare, do you think have the potential to significantly impact your life or the world at large, and might you be interested in reading about?","None, I'm only interested in football, hiking, camping, and cooking.",5
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?,"Running, traveling, and language learning.",5
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"What kinds of issues or current events do you find yourself following or wanting to stay informed about, whether they're related to your hobbies or completely separate from them?","Medical advancements, marathon training trends, travel restrictions, and language learning technologies.",5
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"What types of stories, profiles, or features, such as those about notable figures, cultural movements, or emerging communities, do you find particularly engaging or inspiring to read about online?","Stories about athletes who overcome challenges to complete marathons, medical advancements, and travel features about unique cultural experiences.",5
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"What aspects of history, science, technology, or the arts do you find yourself drawn to when exploring online content, even if they don't directly relate to your hobbies or the current events you follow?","None. I only explore content related to running, travel, languages, or medicine.",5
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"How do you like to consume information or stories about your interests, for example, do you prefer in-depth analyses, personal anecdotes, opinion pieces, podcasts, videos, or something else, and are there any particular formats or sources that you find more engaging or trustworthy than others?","I prefer videos and podcasts for running and travel, and language learning apps for new languages. For medical topics, I prefer in-depth analyses and peer-reviewed journals.",5
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?,"Birdwatching, sustainable farming, and making crafts.",5
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"What current events, social issues, or cultural trends do you find yourself thinking about or discussing with others, and would like to read more about to gain a deeper understanding or stay informed?","Environmental conservation, sustainable agriculture, and wildlife preservation.",5
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"What kinds of historical periods, scientific fields, or technological advancements fascinate you, and do you find yourself seeking out online articles or stories that explore their connections to modern life or society?",Environmental science and sustainability.,5
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"What types of stories, genres, or formats, such as profiles, opinion pieces, or investigative journalism, do you typically find most engaging or enjoyable to read, and are there any particular tone, style, or perspectives you prefer in the online articles you read?","I enjoy reading about environmental issues, sustainable living, and conservation, particularly articles on bird conservation and eco-friendly farming practices. I prefer informative and factual pieces with a neutral tone.",5
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"What aspects of human experience, such as psychology, philosophy, economics, or education, intersect with your interests in environmental conservation and sustainability, and how do you think exploring these intersections could deepen your understanding of the issues that matter most to you?","Education, as it informs people about sustainability.",5
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?,"Set design, fashion, gaming, and music.",5
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"What current events, social issues, or cultural trends do you find yourself drawn to or curious about, and would like to explore further through online articles?",Fashion trends and the gaming industry.,5
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"What kinds of historical periods, scientific fields, or educational topics, such as technology, environment, or philosophy, fascinate you or do you think you might find interesting to learn more about through online articles?",None.,5
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"What types of stories, genres, or formats, such as biographies, travelogues, opinion pieces, or investigative journalism, do you typically find most engaging or enjoyable to read about in online articles?","None, I prefer gaming and music content.",5
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"What kinds of lifestyle or entertainment topics, such as food, travel, sports, or wellness, do you think you might be interested in reading about online, even if they aren't directly related to your current hobbies or interests in set design, fashion, gaming, and music?",None.,5
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,What are some hobbies or activities you enjoy doing in your free time that you might also like to read about or stay updated on through online articles?,"Playing the piano, gardening, and volunteering at an animal shelter.",5
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"What kinds of issues or current events do you find yourself thinking about or discussing with others, even if they aren't directly related to your hobbies or daily activities?","Mental health, workplace culture, animal welfare, and environmental conservation.",5
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"What types of stories, genres, or formats, such as historical accounts, scientific explanations, personal essays, or cultural critiques, do you usually find most engaging or thought-provoking when reading online articles?","I don't usually read online articles, I'd rather play piano or tend to my garden.",1
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"What are some places, whether they're cities, countries, or regions, that fascinate you or hold a special significance, and would you be interested in reading articles about their history, culture, food, or daily life?",None.,5
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"What kinds of challenges, successes, or innovations in various fields, such as technology, education, healthcare, or the arts, do you think have the potential to significantly impact society or your own life, and would you like to learn more about through online articles?",Technology innovations in animal welfare and online education platforms for psychology.,5
