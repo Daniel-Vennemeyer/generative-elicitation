@@ -1,0 +1,126 @@
+object,turn,question,answer,llm_score
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,"Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?",No.,5
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"Are you interested in reading online articles about science, technology, or innovation?",No.,5
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"Are you interested in reading online articles about history, culture, or current events?",No.,1
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"Are you interested in reading online articles about sports, fitness, or outdoor activities?",Yes.,1
+":
+Education: Masters in Finance
+Occupation: Financial Analyst at an international bank
+Hobbies: Playing football, weekend hiking and camping trips, and cooking different cuisines.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"Are you interested in reading online articles about food, cooking, or travel?","Yes, cooking.",1
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,"Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?",No.,5
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"Are you interested in reading online articles about science, technology, or innovation?",No.,5
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"Are you interested in reading online articles about history, culture, or current events?",No.,1
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"Are you interested in reading online articles about sports, fitness, or outdoor activities?",Yes.,5
+":
+Education: Medical Doctorate
+Occupation: Junior Surgeon at a regional hospital
+Hobbies: Running marathons, traveling, and learning new languages.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"Are you interested in reading online articles about food, cooking, or travel?",Travel.,5
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,"Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?",No.,5
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"Are you interested in reading online articles about science, technology, or innovation?",Yes.,5
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"Are you interested in reading online articles about travel, culture, or history?",No.,5
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"Are you interested in reading online articles about sports, fitness, or wellness?",No.,5
+":
+Education: Master's degree in Environmental Science
+Occupation: Environmental Consultant for a non-government organization
+Hobbies: Birdwatching, sustainable farming, and making crafts.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"Are you interested in reading online articles about business, economics, or personal finance?",No.,5
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,"Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?","Yes, music.",5
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,Are you interested in reading online articles about science and technology?,No.,5
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,Are you interested in reading online articles about sports or fitness?,No.,5
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"Are you interested in reading online articles about travel, culture, or history?",No.,5
+":
+Education: Bachelor's degree in Graphic Design
+Occupation: Graphic Designer at a startup
+Hobbies: Set design, fashion, gaming, and listening to music.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"Are you interested in reading online articles about food, cooking, or lifestyle?",No.,1
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",0,"Are you interested in reading online articles about entertainment, such as movies, music, or celebrities?",No.,5
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",1,"Are you interested in reading online articles about science, technology, or innovation?",No.,5
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",2,"Are you interested in reading online articles about history, culture, or current events?",No.,5
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",3,"Are you interested in reading online articles about sports, fitness, or outdoor activities?",No.,5
+":
+Education: Bachelor's degree in Psychology
+Occupation: HR Manager at a tech company
+Hobbies: Playing the piano, gardening, and volunteering at a local animal shelter.
+Answer the following questions about your interests from the perspective of this person. Assume you do not have any interests other than those presented here.",4,"Are you interested in reading online articles about personal development, self-improvement, or lifestyle topics?",No.,5

@@ -365,6 +365,6 @@ def main(input_txt, output_txt, model_name, device=None, multidimensional=False,
 
 
 logger.info('============= Open Results (Llama-3-70B Judge) =================')
-file = 'model_model_results/website_preferences/meta-llama/Llama-3.3-70B-Instruct_per_turn_0_questions_open.txt'
+file = 'model_model_results/website_preferences/meta-llama/Llama-3.3-70B-Instruct_per_turn_0_questions_yn.txt'
 model = 'meta-llama/Llama-3.3-70B-Instruct'
-main(file, 'Open_GATE_judge_llama3-70b_multi', model, multidimensional=True)
+main(file, 'closed_GATE_judge_llama3-70b', model, multidimensional=False)
